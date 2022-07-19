@@ -5,9 +5,9 @@ let customModel;
 
 function setup() {
 
-  createCanvas(400, 400, WEBGL);
+  createCanvas(windowWidth, windowHeight, WEBGL);
 
-  customModel = createModel(50);
+  customModel = createModel(windowWidth / 10);
 
 }
 
